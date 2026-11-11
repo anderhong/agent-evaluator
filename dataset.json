@@ -1,0 +1,20 @@
+[
+  {
+    "id": "test_001",
+    "query": "What is the weather in Auckland today?",
+    "expected_tool": "get_weather",
+    "expected_keywords": ["Auckland", "temperature", "°C"]
+  },
+  {
+    "id": "test_002",
+    "query": "How many words in 'Hello world from Auckland'?",
+    "expected_tool": "word_count",
+    "expected_keywords": ["4"]
+  },
+  {
+    "id": "test_003",
+    "query": "Who won the 2026 World Cup?",
+    "expected_tool": "search_wikipedia",
+    "expected_keywords": ["Spain", "FIFA"]
+  }
+]
